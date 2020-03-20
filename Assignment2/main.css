@@ -1,0 +1,110 @@
+/*css document*/
+html,
+body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.button {
+    position: relative;
+    background-color: rgba(217, 220, 226, 0.8);
+    border: solid rgba(217, 220, 226, 0.8);
+    color: black;
+    padding: 13px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    margin: auto;
+    margin-top: 15px;
+    cursor: pointer;
+    border-radius: 25px;
+    font-weight: 700;
+    width: 20%;
+    overflow: hidden;
+}
+
+.container-inner {
+    text-align: center;
+    font-family: "lato", sans-serif;
+    padding: 20px;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 25px;
+    display: block;
+    width: 50%;
+    color: black;
+    /*            font-weight: 400;*/
+    /*            font-size: 120%;*/
+    line-height: 130%;
+    background-color: rgba(217, 220, 226, 0.75);
+}
+
+.container {
+    text-align: center;
+    font-family: "lato", sans-serif;
+    padding: 20px;
+}
+
+.inner {
+    padding: 18px;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    color: ghostwhite;
+    background-image: url(Images/venice-1933559.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    display: table;
+    filter: grayscale(0);
+}
+
+.innerinfo {
+    font-family: "lato", sans-serif;
+    padding: 20px;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 25px;
+    display: block;
+    color: black;
+    padding: 40px;
+    line-height: 140%;
+    background-color: rgba(217, 220, 226, 0.75);
+
+}
+
+img {
+    height: 300px;
+    width: 350px;
+    padding: 25px;
+}
+
+.innerdescp {
+    font-family: "lato", sans-serif;
+    padding: 20px;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 25px;
+    display: block;
+    color: black;
+    padding: 40px;
+    line-height: 140%;
+    background-color: rgba(217, 220, 226, 0.75);
+}
+
+.container-footer {
+    padding: 16px;
+    position: relative;
+    margin: 0;
+    background-color: bisque;
+    height: 25%;
+    width: 100%;
+    text-align: left;
+    font-family: sans-serif;
+    font-style: bold;
+
+}
